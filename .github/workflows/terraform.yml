@@ -1,12 +1,13 @@
 name: 'Terraform'
 
 on:
-  push:
-    branches: [ "staging" ]
-  pull_request:
+  workflow_dispatch:
+  #push:
+  #  branches: [ "staging" ]
+  #pull_request:
 
-permissions:
-  contents: read
+#permissions:
+#  contents: read
 
 jobs:
   terraform:
